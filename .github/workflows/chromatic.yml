@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install dependencies
-        # 👇 Install dependencies with the same package manager used in the project (replace it as needed), e.g. yarn, npm, pnpm
+        # 👇 Install dependencies with the same package manager used in the project
         run: npm ci
         run: pnpm install
         run: yarn install --immutable --immutable-cache --check-cache
