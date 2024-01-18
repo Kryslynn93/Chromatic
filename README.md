@@ -1,2 +1,2 @@
-# Storybook
+# Chromatic
 Storybook
